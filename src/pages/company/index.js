@@ -1,0 +1,12 @@
+export { default as Login } from './Login';
+export { default as Register } from './Register';
+export { default as Dashboard } from './Dashboard';
+export { default as Squads } from './Squads';
+export { default as Employees } from './Employees';
+export { default as Projects } from './Projects';
+export { default as SquadRegister } from './SquadRegister';
+export { default as EmployeeRegister } from './EmployeeRegister';
+export { default as ProjectRegister } from './ProjectRegister';
+export { default as SquadUpdate } from './SquadUpdate';
+export { default as ProjectUpdate } from './ProjectUpdate';
+export { default as EmployeeUpdate } from './EmployeeUpdate';
