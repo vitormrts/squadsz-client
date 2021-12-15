@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<h1 align="center">SquadsZ - Client</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+     <img src=https://img.shields.io/github/languages/code-size/vitormrts/squadsz-client?style=for-the-badge hspace="2" vspace="20"/>
+    <img src=https://img.shields.io/github/license/vitormrts/squadsz-client?style=for-the-badge hspace="2" vspace="20"/>
+    <img src=https://img.shields.io/github/issues/vitormrts/squadsz-client?style=for-the-badge hspace="2" vspace="20"/>
+</p>
 
-## Available Scripts
+<!-- ABOUT -->
 
-In the project directory, you can run:
+## About
 
-### `yarn start`
+This app allows companies to manage their employees through squads and perform sprints with a kanban for their organization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TECHONOLOGIES -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Technologies
 
-### `yarn test`
+- ✔️ React.JS
+- ✔️ Styled Components
+- ✔️ Bootstrap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- HOW TO USE -->
 
-### `yarn build`
+## ℹ️ How To Use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ESLint and Prettier
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You need to have 3 plugins installed in your text editor to keep a pattern in the project: `ESLint`, `Prettier` and `EditorConfig`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These plugins are already configured in the project in the `prettier.config.js`, `.eslintrc.json` and `editorconfig` files.
 
-### `yarn eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> This project needs [squadsz server API](https://github.com/IgorSantoss/squadsz) installed on your computer and running. Please, first follow this [steps](https://github.com/IgorSantoss/squadsz#installation)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To modify (locally) this project, you will need [Node](https://nodejs.org/en/) and [GIT](https://git-scm.com/) installed on your computer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+With these tools in hand and server installed and running, follow the steps below
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+# Clone this repository
+$ git clone https://github.com/vitormrts/squadsz-client
 
-## Learn More
+# Go to the repository cloned
+$ cd squadsz-client
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+$ yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start server
+$ yarn start
+```
 
-### Code Splitting
+Done! Now you have this application in your computer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- CONTRIBUTING -->
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To contributing to this project, follow the steps bellow.
 
-### Making a Progressive Web App
+1. Fork the Project;
+2. Create your Feature Branch (`git checkout -b new-branch`)
+3. Commit your Changes (`git commit -m 'DESCRIPTION OF CHANGES'`)
+4. Push to the Branch (`git push origin new-branch`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
+This project is under the MIT license. See the [LICENSE](https://github.com/vitormrts/squadsz/blob/master/LICENSE) file for more details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">Made with ❤️ by <strong><a href="https://github.com/vitormrts" target="_blank">Vitor Martins</a></strong> ✌ </p>
