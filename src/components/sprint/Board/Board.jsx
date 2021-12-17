@@ -45,7 +45,7 @@ const Board = function () {
           id_sprint: id,
           id_project: project,
           id_stage: 1,
-          id_employee: employee,
+          id_employee: employee === '' ? null : employee,
           priority,
           description,
           name,
@@ -53,6 +53,9 @@ const Board = function () {
         });
         toast.success('Tarefa registrada com sucesso');
         setShowModalAddTask(false);
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
       } catch (error) {
         toast.error(error.response.data.message);
       }
